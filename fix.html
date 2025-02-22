@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheap Gaming Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="test2.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="white">
+                <path d="M6 15h2v-2H6v2zm-4 2h2v-2H2v2zm0-4h2v-2H2v2zm0-4h2V7H2v2zm0-4h2V3H2v2zm4 0h2V3H6v2zm0 4h2V7H6v2zm0 4h2v-2H6v2zm0 4h2v-2H6v2zm8 3h2v-2h-2v2zm-4 0h2v-2h-2v2zm8-3h2v-2h-2v2zm0-4h2v-2h-2v2zm0-4h2V7h-2v2zm0-4h2V3h-2v2zm-4 0h2V3h-2v2zm0 4h2V7h-2v2zm0 4h2v-2h-2v2zm0 4h2v-2h-2v2z"/>
+            </svg>
+            Player++
+        </div>  <!-- Example Icon -->
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li class="dropdown">
+                <a href="#game"><i class="fas fa-gamepad"></i> Games ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#DLC"><i class="fas fa-download"></i> DLC</a></li>
+                    <li><a href="#MODS"><i class="fas fa-wrench"></i> MODS</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="#"><i class="fas fa-star"></i> Features</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+     <section id="home">
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content left-align">
+            <h1 attr-title="Dark Souls III"> Dark Souls III </h1>
+            <p>"A punishing action RPG set in a dark, decaying world filled with deadly enemies, epic boss fights, and deep lore."</p>
+            <button class="purchase-btn" id="purchase-btn">Explore</button>
+        </div>
+    </header>
+</section>
+    <!-- Image Gallery -->
+    <h2 class="gallery-title">Other Games</h2>
+<section class="gallery" id="game" >
+  
+    <div class="game" data-img="img/DS.jpg">
+        <img src="img/DS.jpg" alt="mcpe/java">
+        <p>Dark Souls III</p>
+    </div>
+    <div class="game" data-img="img/er2.jpg">
+        <img src="img/er2.jpg" alt="mcpe/java">
+        <p>Elden Ring</p>
+    </div>
+    <div class="game" data-img="img/sekiro.jpg">
+        <img src="img/sekiro.jpg" alt="mcpe/java">
+        <p>Sekiro: Shadows Die Twice</p>
+    </div>
+    <div class="game" data-img="img/cod.jpg">
+        <img src="img/cod.jpg" alt="mcpe/java">
+        <p>Call Of Duty: Modern Warfare II</p>
+    </div>
+    <div class="game" data-img="img/dota.jpg">
+        <img src="img/dota.jpg" alt="mcpe/java">
+        <p>DOTA 2</p>
+    </div>
+    <div class="game" data-img="img/mh.jpg">
+        <img src="img/mh.jpg" alt="mcpe/java">
+        <p>Monster Hunter Rise</p>
+    </div>
+    <div class="game" data-img="img/lop.jpg">
+        <img src="img/lop.jpg" alt="mcpe/java">
+        <p>Lies Of P</p>
+    </div>
+    <div class="game" data-img="img/bat2042.jpg">
+        <img src="img/bat2042.jpg" alt="mcpe/java">
+        <p>Battlefield 2042</p>
+    </div>
+</section>
+
+<!-- Most Played Section -->
+<section class="most-played">
+    <h2>Most Played Last Week</h2>
+    
+    <div class="game" data-img="img/mc.jpeg">
+        <img src="img/mc.jpeg" alt="mcpe/java">
+        <p>Minecraft</p>
+        <div class="stats">
+            <span>Hours Played: 500+</span>
+           <!-- <span>Rank: 1</span>-->
+        </div>
+    </div>
+
+    <div class="game" data-img="img/terraria.jpeg">
+        <img src="img/terraria.jpeg" alt="Terra">
+        <p>Terraria</p>
+        <div class="stats">
+            <span>Hours Played: 300+</span>
+            <!--<span>Rank: 2</span>-->
+        </div>
+    </div>
+
+    <div class="game" data-img="img/wuwa.jpeg">
+        <img src="img/wuwa.jpeg" alt="WuWa">
+        <p>Wuthering Waves</p>
+        <div class="stats">
+            <span>Hours Played: 200+</span>
+            <!--<span>Rank: 3</span>-->
+        </div>
+    </div>
+
+    <div class="game" data-img="img/helldivers.jpg">
+        <img src="img/helldivers.jpg" alt="Helldivers">
+        <p>Helldivers 2</p>
+        <div class="stats">
+            <span>Hours Played: 150+</span>
+            <!--<span>Rank: 4</span>-->
+        </div>
+
+        
+    </div>
+    <div class="game" data-img="img/luna.jpg">
+        <img src="img/luna.jpg" alt="Helldivers">
+        <p>Punishing: Gray Raven</p>
+        <div class="stats">
+            <span>Hours Played: 150+</span>
+           <!-- <span>Rank: 5</span>-->
+        </div>
+
+</section>
+
+
+<section class="highlight-section" id="DLC">
+    <div class="highlight-content">
+        <h1 attr-title="ELDEN RING: SHADOW OF THE ERDTREE">ELDEN RING: SHADOW OF THE ERDTREE</h1>
+
+        <p>
+            Embark on a perilous journey beyond the Lands Between in Shadow of the Erdtree, the highly anticipated expansion to Elden Ring. <br>This new chapter delves deeper into the mysteries of the Erdtree’s shadowed past, unveiling hidden truths and long-forgotten legends. <br>
+
+            As  you traverse an uncharted realm shrouded in darkness, you’ll encounter treacherous landscapes teeming with formidable new foes,<br> each more ruthless than the last. Ancient ruins whisper of civilizations lost to time, while twisted dungeons hold secrets that could  alter <br> the  fate of the Tarnished forever.
+            
+            New weapons, abilities, and legendary armor sets will aid you in battle,  but the true challenge lies  in <br> the  choices you make.  Will you uncover the dark forces lurking beneath the Erdtree and harness their power, or will you be <br>consumed by the very shadows  you seek to conquer?
+            
+            The fate of this forsaken land  rests in your hands. Are you ready to step into<br> the unknown once more?
+        </p>
+      
+    </div>
+</section>
+
+
+
+<section class="mod-section" id="MODS">
+    <h2>MOD SECTION</h2>
+    
+    <div class="news-image" >
+        <img src="img/img1pre.jpg" alt="calamity">
+
+    <div class="news-content">
+      
+        <p>
+            Terraria: Calamity Mod is one of the most popular and expansive mods for Terraria, introducing new biomes, bosses, enemies, items, weapons, and <br>a unique progression system. It significantly enhances the base game by adding new challenges, difficulty modes, and lore, making it perfect for players<br> seeking a deeper and more intense Terraria experience.
+        </p>
+        <a href="#" class="read-more-btn">Read More</a>
+    </div>
+
+   
+
+</section>
+
+<section class="mod-section">
+  
+    <div class="news-image" >
+        <img src="img/rlcraft.jpg" alt="rl">
+
+    <div class="news-content">
+      
+        <p>
+            RLCraft is a popular hardcore survival modpack for Minecraft, created by Shivaxi. It significantly increases the game's difficulty by introducing realistic <br> survival mechanics, dangerous new creatures, and a complex progression system. Unlike vanilla Minecraft, RLCraft includes features such as: Thirst <br> & Temperature Mechanics, Deadly Creatures & Bosses, Advanced Combat System, Skill-Based Progression
+        </p>
+        <a href="#" class="read-more-btn">Read More</a>
+    </div>
+
+   
+
+</section>
+
+<section class="mod-section">
+  
+    <div class="news-image" >
+        <img src="img/sw.avif" alt="Starwars">
+
+    <div class="news-content">
+      
+        <p>
+            Helldivers 2: Star Wars Mod
+
+             a thrilling fan-made overhaul that fuses the intense cooperative gameplay of Helldivers 2  with the legendary universe of Star Wars.<br> This mod transforms the battlefield into a war-torn  galactic front,  where you and your squad fight as elite Republic Commandos, Rebel Troopers, or Imperial <br> Stormtroopers against relentless waves of Battle Droids, Sith  Troopers, and alien monstrosities.
+        </p>
+        <a href="#" class="read-more-btn">Read More</a>
+    </div>
+
+</section>
+
+<section class="mod-section">
+  
+    <div class="news-image" >
+        <img src="img/BH_TALM_header.webp" alt="aether">
+
+    <div class="news-content">
+      
+        <p>
+            Aether Legacy Modpack
+
+           or Aether Legacy is a revival of the classic Aether mod, bringing back the heavenly dimension filled with floating islands, mystical creatures, <br> and powerful dungeons in Minecraft. This mod recreates the original Aether experience, allowing players to once again venture into the beautiful yet dangerous <br>realm above the Overworld.
+        </p>
+        <a href="#" class="read-more-btn">Read More</a>
+    </div>
+
+</section>
+
+<section class="mod-section">
+  
+    <div class="news-image" >
+        <img src="img/weep.png" alt="weep">
+
+    <div class="news-content">
+      
+        <p>
+            The Weeping Angels Mod for Minecraft adds a terrifying and suspenseful horror element to the game. Inspired by the infamous Weeping Angels from Doctor Who, <br> these creatures appear as harmless stone statues at first, but the moment you look away or blink, they come to life—moving at lightning speed to hunt you down.<br>
+
+            This mod completely changes the way you explore Minecraft, making dark caves, abandoned ruins, and nighttime journeys ten times more terrifying.
+        </p>
+        <a href="#" class="read-more-btn">Read More</a>
+    </div>
+
+   
+
+</section>
+
+<section class="social-media-section">
+    <h2>Follow Me on Social Media</h2>
+    <div class="social-icons">
+        <div class="social-icon-wrapper">
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+        <div class="social-icon-wrapper">
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <div class="social-icon-wrapper">
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <div class="social-icon-wrapper">
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-steam"></i></a>
+        </div>
+    </div>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <p>&copy; 2025 All Rights Reserved.</p>
+        </div>
+    </footer>
+</section>
+
+
+
+
+
+
+    
+    <script src="test.js"></script>
+    
+    
+
+</body>
+</html>
