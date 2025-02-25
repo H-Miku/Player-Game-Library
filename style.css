@@ -244,7 +244,7 @@ h1[attr-title*="Dark Souls III"] {
  .gallery {
     display: flex;
     gap: 8px;
-    padding: 1 0px ;
+    padding: 10px ;
     padding-bottom: 50px;
     overflow-x: auto;
     white-space: nowrap;
