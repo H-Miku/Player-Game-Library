@@ -277,6 +277,7 @@ h1[attr-title*="Dark Souls III"] {
     position: relative;
     overflow: hidden; /* Keep images inside */
     border-radius: 10px;
+    border:none;
 }
 
 .game img {
