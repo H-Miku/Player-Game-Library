@@ -526,6 +526,7 @@ h1[attr-title*="ELDEN RING: SHADOW OF THE ERDTREE"] {
     scroll-behavior: smooth;
     user-select: none;
     perspective: 1000px; 
+    overflow:hidden;
 
 }
 .mod-section h2{
