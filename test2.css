@@ -366,7 +366,7 @@ h1[attr-title*="Dark Souls III"] {
      height: 300px; 
      overflow: hidden; 
      transition: opacity 0.3s ease; 
-     padding-left: 28px;
+     margin-left: 28px;
      border-radius:none;
  }
  
