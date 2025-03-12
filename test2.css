@@ -645,6 +645,61 @@ h1[attr-title*="ELDEN RING: SHADOW OF THE ERDTREE"] {
     border: 3px solid #fff; /* White border for a clean look */
 }
 
+.author-icon p{
+   font-style: italic ;
+   float:none;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.author-icon img {
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+
+.author-icon p {
+    font-style: italic;
+}
+
+
+.author-icon p:first-of-type {
+    font-weight: bold;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.author-icon img {
+    animation: floatAnimation 3s ease-in-out infinite;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.author-icon:hover img {
+    transform: translateY(-15px);
+}
+
+
 
 
 
