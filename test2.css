@@ -193,13 +193,18 @@ html{
 /* Load a custom font */
 
 
-h1[attr-title*="Dark Souls III"] {
-    font-family: 'Uncial Antiqua', serif; 
-    color: white; 
-    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.8);
+[attr-title*="Dark Souls III"] {
+    font-family: 'Uncial Antiqua', serif;
     font-size: 3rem;
-}
 
+    /* Light Gradient Text */
+    background: linear-gradient(to right, #ffffff, #f8e9a1); /* White to Light Gold */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Soft Glowing Shadow */
+    text-shadow: 5px 2px 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(248, 233, 161, 0.6);
+}
 
  
  .overlay {
